@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="br-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(65, 66, 66);
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav {
+            background-color: rgb(102, 102, 102);
+            padding: 2px;
+            box-shadow:2px 1px 3px 0px rgb(0, 0, 0.493);
+        }
+
+        nav > a {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Helvetica, sans-serif;
+                        text-decoration: none;
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > ul > a:hover{
+            text-decoration: underline;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+         aside{
+            background-color: rgb(228, 208, 249);
+            font-size: smaller;
+        }
+        
+
+
+        footer{
+            background-color: rgb(223, 233, 38);
+            text-align: center;
+            margin: 10px;
+        }
+        article > aside > P{
+            text-align: center;
+        }   
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+                <a href="">Link</a>
+                <a href="">Link</a>
+                <a href="">Link</a>
+                <a href="">Link</a>        
+
+        </nav>
+    </header>
+    <main>
+       <section id="assuntos"></section>
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ducimus tenetur illo explicabo rerum repellendus numquam neque, eligendi animi nulla assumenda harum reprehenderit iste consectetur eos aliquam eaque quod. Perspiciatis.</p>
+                <aside>
+                    <p>Artigo escrito por Diego Rijo de Azevedo</p>
+                </aside>
+            </article>
+    </main>
+    <footer>
+         <p>Desenvolvido pelo Curso em Vídeo.</p>
+    </footer>
+</body>
+</html>
